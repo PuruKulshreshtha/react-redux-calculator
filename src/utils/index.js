@@ -3,7 +3,7 @@ function parseCalculationString(s) {
   let calculation = [],
     current = "";
   for (let i = 0, ch; (ch = s.charAt(i)); i++) {
-    if ("*/+-".indexOf(ch) > -1) {
+    if ("*%/+-".indexOf(ch) > -1) {
       if (current === "" && ch === "-") {
         current = "-";
       } else {
@@ -33,6 +33,7 @@ export const calculation = (calcArray, currentResult) => {
   let calc = parseCalculationString(calcString);
   // let calc = calcString.split(/(\+|-|\*|\/)/g);
   let ops = [
+      { "%": (a, b) => (a / 100) * b },
       { "/": (a, b) => a / b },
       { "*": (a, b) => a * b },
       { "+": (a, b) => a + b },
@@ -69,7 +70,7 @@ export const calculation = (calcArray, currentResult) => {
 export const addValueToCalculation = (value, currentState) => {
   currentState = [...currentState];
 
-  let operatorValues = ["*", "/", "+", "-"];
+  let operatorValues = ["%", "*", "/", "+", "-"];
 
   // handle dot key
   if (value === ".") {
@@ -93,11 +94,9 @@ export const addValueToCalculation = (value, currentState) => {
     }
   }
 
-  if (["±", "%", "="].includes(value)) {
+  if (["±", "="].includes(value)) {
     if (calculation(currentState)) {
-      if (value === "%") {
-        return [calculation(currentState) / 100];
-      } else if (value === "±") {
+      if (value === "±") {
         return [calculation(currentState) * -1];
       }
       return [calculation(currentState)];

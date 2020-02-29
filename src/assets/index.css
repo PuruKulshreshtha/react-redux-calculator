@@ -9,7 +9,6 @@ html {
   align-items: center;
   justify-content: center;
 }
-
 .calculator {
   margin: auto;
   border-radius: 4%;
@@ -46,10 +45,17 @@ button.calc-input {
   margin-bottom: 15px;
   border-radius: 27px;
   border: none;
+  outline: none;
   font-size: 30px;
   color: #65bcf6;
   background-color: #ffffff;
   box-shadow: 0 2px 5px rgba(85, 85, 85, 0.5);
+}
+button.calc-input.operator:focus {
+  box-shadow: 0 0 0 0.2rem rgba(101, 188, 246, 0.5);
+}
+button.calc-input.equal:focus {
+  box-shadow: 0 0 0 0.2rem rgba(101, 188, 246, 0.5);
 }
 
 button.calc-input.numeric {

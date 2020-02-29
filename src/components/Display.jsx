@@ -12,7 +12,8 @@ class Display extends Component {
 
   _replaceChars(value) {
     value = value.join("");
-    value = value.split(/(\+|-|\*|\/)/g).map(data => {
+    // eslint-disable-next-line no-useless-escape
+    value = value.split(/(\+|-|\*|\%|\/)/g).map(data => {
       if (data.length > 8) {
         return parseFloat(data).toPrecision(2);
       }
@@ -21,6 +22,8 @@ class Display extends Component {
     value = value.join("");
     value = value.replace(/\//g, '<span class="operatorStyle">÷</span>');
     value = value.replace(/\*/g, '<span class="operatorStyle">×</span>');
+    // eslint-disable-next-line no-useless-escape
+    value = value.replace(/\%/g, '<span class="operatorStyle">%</span>');
     value = value.replace(/\+/g, '<span class="operatorStyle">+</span>');
     value = value.replace(/-/g, '<span class="operatorStyle">-</span>');
     return value;
