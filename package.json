@@ -2,7 +2,7 @@
   "name": "react-redux-calculator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://manish-dalal.github.io/react-redux-calculator",
+  "homepage": "https://PuruKulshreshtha.github.io/react-redux-calculator",
   "dependencies": {
     "@babel/core": "7.8.4",
     "@svgr/webpack": "4.3.3",
