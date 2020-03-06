@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-redux-calculator/static/css/main.e4ace346.chunk.css",
-    "main.js": "/react-redux-calculator/static/js/main.3891f72a.chunk.js",
-    "main.js.map": "/react-redux-calculator/static/js/main.3891f72a.chunk.js.map",
-    "runtime-main.js": "/react-redux-calculator/static/js/runtime-main.e695f157.js",
-    "runtime-main.js.map": "/react-redux-calculator/static/js/runtime-main.e695f157.js.map",
-    "static/js/2.870c56ab.chunk.js": "/react-redux-calculator/static/js/2.870c56ab.chunk.js",
-    "static/js/2.870c56ab.chunk.js.map": "/react-redux-calculator/static/js/2.870c56ab.chunk.js.map",
+    "main.css": "/react-redux-calculator/static/css/main.a8f82554.chunk.css",
+    "main.js": "/react-redux-calculator/static/js/main.c0050779.chunk.js",
+    "main.js.map": "/react-redux-calculator/static/js/main.c0050779.chunk.js.map",
+    "runtime-main.js": "/react-redux-calculator/static/js/runtime-main.3fbe6249.js",
+    "runtime-main.js.map": "/react-redux-calculator/static/js/runtime-main.3fbe6249.js.map",
+    "static/js/2.b4b03961.chunk.js": "/react-redux-calculator/static/js/2.b4b03961.chunk.js",
+    "static/js/2.b4b03961.chunk.js.map": "/react-redux-calculator/static/js/2.b4b03961.chunk.js.map",
     "index.html": "/react-redux-calculator/index.html",
-    "precache-manifest.f546f42011f069904d7df83bf5b558c5.js": "/react-redux-calculator/precache-manifest.f546f42011f069904d7df83bf5b558c5.js",
+    "precache-manifest.6c66e6361f301a38f229ac6a35d9bc98.js": "/react-redux-calculator/precache-manifest.6c66e6361f301a38f229ac6a35d9bc98.js",
     "service-worker.js": "/react-redux-calculator/service-worker.js",
-    "static/css/main.e4ace346.chunk.css.map": "/react-redux-calculator/static/css/main.e4ace346.chunk.css.map",
-    "static/js/2.870c56ab.chunk.js.LICENSE.txt": "/react-redux-calculator/static/js/2.870c56ab.chunk.js.LICENSE.txt"
+    "static/css/main.a8f82554.chunk.css.map": "/react-redux-calculator/static/css/main.a8f82554.chunk.css.map",
+    "static/js/2.b4b03961.chunk.js.LICENSE.txt": "/react-redux-calculator/static/js/2.b4b03961.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e695f157.js",
-    "static/js/2.870c56ab.chunk.js",
-    "static/css/main.e4ace346.chunk.css",
-    "static/js/main.3891f72a.chunk.js"
+    "static/js/runtime-main.3fbe6249.js",
+    "static/js/2.b4b03961.chunk.js",
+    "static/css/main.a8f82554.chunk.css",
+    "static/js/main.c0050779.chunk.js"
   ]
 }
